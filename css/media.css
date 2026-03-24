@@ -74,4 +74,8 @@
       cursor: pointer;
       z-index: 1000;
     }
+
+    /* .hero img {
+    object-fit: contain;
+    } */
 }
