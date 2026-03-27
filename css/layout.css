@@ -261,14 +261,12 @@ ul.nav {
 
 /* === 메인 배너 === */
 .hero {
-    background: #f5f4ff;
-    width: 100vw;
-    height: 100vh;
-}
+  width: 100%;
+  height: 100dvh;
 
-.hero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    display: block;
+  background-image: url(../image/pc-main-bg.jpg);
+  background-size: cover;        /* 🔥 핵심 */
+  background-position: center;   /* 🔥 핵심 */
+  background-repeat: no-repeat;
+
 }

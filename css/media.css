@@ -15,7 +15,17 @@
 
 /* ===== 1200px 이하 ===== */
 @media screen and (max-width: 1200px) {
-  
+  /* header {
+    height: 80px;
+  } */
+
+  .nav-link {
+    font-size: calc(var(--default-FZ));
+  }
+
+  .hero {
+    background-image: url(../image/tablet-main-img.jpg);
+  }
 }
 
 
@@ -24,7 +34,9 @@
 
 /* ===== 1024px 이하 (태블릿) ===== */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-
+  .hero {
+    background-image: url(../image/tablet-main-img.jpg);
+  }
 }
 
 
@@ -75,7 +87,14 @@
       z-index: 1000;
     }
 
-    /* .hero img {
-    object-fit: contain;
-    } */
+    .hero {
+      background-image: url(../image/big-mobile-main-img.jpg);
+    }
+}
+
+/* ===== 480px 이하 (모바일 화면) ===== */
+@media screen and (max-width: 480px) {
+  .hero {
+    background-image: url(../image/mobile-main-img.jpg);
+  }
 }
